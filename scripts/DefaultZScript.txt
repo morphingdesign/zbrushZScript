@@ -1,0 +1,16 @@
+//startup
+
+//[If,[MemGetSize,startup_mem],		
+//	[IPress,"Zplugin:Misc Utilities:Home Page"]	
+//	,	
+//	[IPress,"Zplugin:Misc Utilities:Home Page"]
+//	[MVarDef,startup_mem,1,0]		
+//]
+
+[RoutineDef,Init,
+	[IPress,"Zplugin:ZScene Manager:Launch Zscene Mgr"]
+	//[IPress,"Zplugin:XMD:XMD ToolBox"]
+]
+[RoutineCall,Init]
+[pd]
+ 
